@@ -63,6 +63,14 @@ span{
     gap: 82px;
 }
 
+.apresentacao__projs{
+    padding: 3% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
 .apresentacao__conteudo{
     width: 50%;
     display: flex;
@@ -87,6 +95,24 @@ span{
     font-size: 1,5rem;
     font-family: var(--fonte-secundaria);
     text-decoration: none;
+}
+
+.apresentacao__conteudo__texto__proj{
+    font-size: 1,3rem;
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+}
+
+.apresentacao__conteudo__texto__sub{
+    font-size: 1,5rem;
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+.apresentacao__conteudo__texto a{
+    text-decoration: none;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto__sobre{
@@ -146,6 +172,26 @@ span{
     width: 50%;
 }
 
+.imagem__portifolio{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+}
+
+.projetos__lista{
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.links__projetos{
+    justify-content: center;
+    gap: 5px;
+    width: 20%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
 .rodape{
     padding: 24px;
     color: var(--cor-primaria);
@@ -176,3 +222,4 @@ span{
         width: auto;
     }
 }
+
