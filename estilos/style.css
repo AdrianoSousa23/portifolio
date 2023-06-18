@@ -180,7 +180,7 @@ span{
 }
 
 .projetos__lista{
-    justify-content: space-between;
+    justify-content: center;
     list-style-type: none;
 }
 
