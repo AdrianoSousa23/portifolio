@@ -203,13 +203,15 @@ span{
 }
 /*mudando dimensão da tela pra outros disposistivos */ 
 
-@media (max-width: 600px) { 
+@media (max-width: 1200px) { 
     .cabecalho{
         padding: 5%;
     }
 
     .cabecalho__menu{
         justify-content: center;
+        gap: 28px;
+
     }
     
     
