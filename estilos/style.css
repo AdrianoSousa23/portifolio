@@ -223,5 +223,14 @@ span{
     .apresentacao__conteudo{
         width: auto;
     }
+
+    .apresentacao__projs {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
 }
 
