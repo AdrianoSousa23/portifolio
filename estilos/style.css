@@ -203,9 +203,9 @@ span{
 }
 /*mudando dimensão da tela pra outros disposistivos */ 
 
-@media (max-width: 1200px) { 
+@media (max-width: 600px) { 
     .cabecalho{
-        padding: 10%;
+        padding: 5%;
     }
 
     .cabecalho__menu{
