@@ -226,7 +226,7 @@ span{
     }
 
     .apresentacao__projs {
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 4%;
     }
 
