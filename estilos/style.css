@@ -48,10 +48,15 @@ span{
 }
 
 .cabecalho__menu__link{
+    display: flex;
     font-family: var(--fonte-secundaria);
     font-size: 1,5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
+    border: 2px solid var(--cor-terciaria) ;
+    gap: 18px;
+    border-radius: 8px;
+    padding: 15px 10px;
     text-decoration: none;
 }
 
@@ -166,7 +171,7 @@ span{
 }
 .links_redes:hover{
     background-color: var(--cor-hover);
-    padding: 3%;
+    padding: 2%;
 }
 
 .imagem{
@@ -201,6 +206,11 @@ span{
     font-family: var(--fonte-secundaria);
     font-size: 1,25rem;
     font-weight: 400;
+}
+
+.cabecalho__menu__link:hover{
+    background-color: var(--cor-hover);
+    padding: 1%;
 }
 /*mudando dimensão da tela pra outros disposistivos */ 
 
