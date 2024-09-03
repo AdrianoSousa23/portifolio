@@ -208,9 +208,48 @@ span{
     font-weight: 400;
 }
 
-.cabecalho__menu__link:hover{
+.cabecalho__menu__link, .links_redes, .links__projetos {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cabecalho__menu__link:hover, .links_redes:hover, .links__projetos:hover {
     background-color: var(--cor-hover);
     padding: 1%;
+    transform: scale(1.05);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario input, .formulario textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+.formulario button {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: var(--fonte-primaria);
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: var(--cor-hover);
+    transform: scale(1.05);
+}
+
+.mensagemSucesso {
+    color: var(--cor-terciaria);
+    margin-top: 20px;
 }
 /*mudando dimensão da tela pra outros disposistivos */ 
 
